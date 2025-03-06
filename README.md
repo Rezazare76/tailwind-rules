@@ -1,4 +1,4 @@
-# eslint-plugin-tailwind-no-px-font-size
+# eslint-plugin-tailwind-rules
 
 🚫 ESLint plugin to prevent using `px` font sizes in Tailwind CSS. Use `rem` or `em` instead for better accessibility and responsiveness.
 
@@ -7,7 +7,7 @@
 To install the plugin, run the following command:
 
 ```sh
-npm install --save-dev eslint-plugin-tailwind-no-px-font-size
+npm install --save-dev eslint-plugin-tailwind-rules
 ```
 
 ## Configuration
@@ -18,9 +18,9 @@ Once installed, you need to add the plugin to your ESLint configuration.
 
 ```js
 module.exports = {
-  plugins: ["tailwind-no-px-font-size"], // Add the plugin
+  plugins: ["tailwind-rules"], // Add the plugin
   rules: {
-    "tailwind-no-px-font-size/no-px-font-size": "warn", // Enable the rule
+    "tailwind-rules/no-px-font-size": "warn", // Enable the rule
   },
 };
 ```
@@ -29,18 +29,18 @@ module.exports = {
 
 ```json
 {
-  "plugins": ["tailwind-no-px-font-size"],
+  "plugins": ["tailwind-rules"],
   "rules": {
-    "tailwind-no-px-font-size/no-px-font-size": "warn"
+    "tailwind-rules/no-px-font-size": "warn"
   }
 }
 ```
 
 ### Rule Options
 
-- `"tailwind-no-px-font-size/no-px-font-size": "warn"`: This will trigger a warning when `px` units are used in Tailwind class names.
-- `"tailwind-no-px-font-size/no-px-font-size": "error"`: This will trigger an error when `px` units are used in Tailwind class names.
-- `"tailwind-no-px-font-size/no-px-font-size": "off"`: This will disable the rule.
+- `"tailwind-rules/no-px-font-size": "warn"`: This will trigger a warning when `px` units are used in Tailwind class names.
+- `"tailwind-rules/no-px-font-size": "error"`: This will trigger an error when `px` units are used in Tailwind class names.
+- `"tailwind-rules/no-px-font-size": "off"`: This will disable the rule.
 
 ## Example
 
@@ -74,4 +74,4 @@ Contributions are welcome! If you find a bug or want to suggest a feature, feel 
 ## Links
 
 - [MIT License](https://opensource.org/licenses/MIT)
-- [GitHub Repository](https://github.com/Rezazare76/tailwind-no-px-font-size)
+- [GitHub Repository](https://github.com/Rezazare76/tailwind-rules)
