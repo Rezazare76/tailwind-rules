@@ -73,5 +73,6 @@ Contributions are welcome! If you find a bug or want to suggest a feature, feel 
 
 ## Links
 
+- [Npm package](https://www.npmjs.com/package/eslint-plugin-tailwind-rules)
 - [MIT License](https://opensource.org/licenses/MIT)
 - [GitHub Repository](https://github.com/Rezazare76/tailwind-rules)
